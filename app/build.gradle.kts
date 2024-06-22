@@ -1,10 +1,7 @@
 plugins {
-//    id("com.android.application")
-//    kotlin("android")
-//    kotlin("kapt")
     alias(libs.plugins.android.application)
     alias(libs.plugins.jetbrains.kotlin.android)
-    alias(libs.plugins.kotlin.kapt)
+//    alias(libs.plugins.kotlin.kapt)
 
 
 
@@ -80,9 +77,8 @@ dependencies {
     implementation ("androidx.lifecycle:lifecycle-runtime-ktx:2.2.0")
 
 
-    //room
+
     implementation("androidx.room:room-runtime:2.6.1")
-//    annotationProcessor("androidx.room:room-compiler:2.6.1")
 //    kapt("androidx.room:room-compiler:2.6.1")
     implementation("androidx.room:room-ktx:2.6.1")
 
@@ -95,5 +91,5 @@ dependencies {
 }
 
 //kapt {
-//    correctErrorTypes = true // Optional, to handle annotation processing errors gracefully
+//    correctErrorTypes = true
 //}
